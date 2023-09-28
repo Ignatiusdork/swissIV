@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
 To install the project, follow these steps:
 
 1. Open your terminal.
-2. You can install SwisstronikJS using npm::
+2. You can install SwisstronikJS using npm:
 
     ```
     npm i @swisstronik/swisstronik.js
@@ -31,19 +31,19 @@ To use the project, follow these steps to deploy, mint, transfer and burn tokens
 
 1. Open the terminal and paste the following code:
 
-    ```
-2.    npx hardhat run scripts/deploy.js --network swisstronik
-    ```
-
-    ```
-3.    npx hardhat run scripts/mintMorts.js --network swisstronik
+2.  ```
+    npx hardhat run scripts/deploy.js --network swisstronik
     ```
 
-4.   ```
+3.  ```
+    npx hardhat run scripts/mintMorts.js --network swisstronik
+    ```
+
+4.  ```
     npx hardhat run scripts/transferMorts.js --network swisstronik
     ```
 
-5.   ```
+5.  ```
     npx hardhat run scripts/burntMorts.js --network swisstronik
     ```
 
