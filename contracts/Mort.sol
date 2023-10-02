@@ -20,9 +20,4 @@ contract MORT is ERC20 {
         _transfer(msg.sender, _to, _amount * 10 ** decimals());
         return true;
     }
-
-    // the burn function typically demolishes tokens after it has been swapped or exchanged for other tokens
-    function burn(uint256 _amount) public {
-        _burn(msg.sender, _amount * 10 ** decimals());
-    }
 }

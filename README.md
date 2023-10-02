@@ -43,10 +43,6 @@ To use the project, follow these steps to deploy, mint, transfer and burn tokens
     npx hardhat run scripts/transferMorts.js --network swisstronik
     ```
 
-5.  ```
-    npx hardhat run scripts/burntMorts.js --network swisstronik
-    ```
-
 
 ## Contributing
 
